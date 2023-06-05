@@ -1,0 +1,23 @@
+{
+  "lint": {
+    "rules": {
+      "exclude": ["require-await"]
+    }
+  },
+  "fmt": {
+    "options": {
+      "singleQuote": true
+    }
+  },
+  "compilerOptions": {
+    "emitDecoratorMetadata": true
+  },
+  "importMap": "./import_map.json",
+  "tasks": {
+    "serve": "deno run --allow-net --allow-read --unstable --allow-env run.ts",
+    "dev": "deno run --allow-net --allow-read --unstable --watch --allow-env run.ts",
+    "create-tables": "deno run --allow-net --allow-read --allow-write --unstable --allow-env ./src/scripts/create-sqlite-tables.ts",
+    "test": "deno test --allow-env --allow-net --allow-read -A --unstable spec",
+    "sqlite": "deno run --allow-all ./src/database/sqlite.service.ts"
+  }
+}
