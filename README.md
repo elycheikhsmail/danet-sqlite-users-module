@@ -9,8 +9,7 @@ web framework inspire from Nestjs but use Deno js as runtime instad of Node js.
 
 ## prerequest:
 
-- deno installed in your machine
-- postgres server installed, this project use this DB.
+- deno installed in your machine 
 
 ## Basic workflow
 
