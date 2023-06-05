@@ -1,6 +1,5 @@
 import { Inject } from 'danet/mod.ts';
-import { DATABASE } from '../database/module.ts';
-import { PostgresService } from '../database/postgres.service.ts';
+import { DATABASE } from '../database/module.ts'; 
 
 import { SqliteConfig } from '../database/sqlite.config.ts';
 
