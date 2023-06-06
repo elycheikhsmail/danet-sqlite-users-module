@@ -4,7 +4,7 @@
 
 ## Description
 
-module for manage users in project built usining Danet and postgresql. Danet is
+module for manage users in project built usining Danet and sqlite. Danet is
 web framework inspire from Nestjs but use Deno js as runtime instad of Node js.
 
 ## prerequest:
